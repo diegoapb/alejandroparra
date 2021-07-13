@@ -1,108 +1,226 @@
 ---
-title: New Beginnings
+title: Introduction Django Project
 date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: This is a little project, based on instagram and devolped in django.
+---
+# Cimientos
+
+## IMPORTANTE
+
+## Resumen Cimientos
+
+[Django Avanzado - Slides P1.pdf](Cimientos%204865b7486a354b89b1379cedbb49ff74/Django_Avanzado_-_Slides_P1.pdf)
+
+.
+
+Comandos iniciales
+
+- Descargar Codigo
+
+> `git clone https://github.com/pablotrinidad/cride-platzi.git`
+
+- exec
+
+> `cd cride`
+`docker-compose -f local.yml build`
+
+## 1 Introduccion
+
+**Palabras Clave:**
+
+- Historias de usuario
+- Funcionalidades
+- Temas iniciales
+
+**Resumen:** 
+
+**Documentacion:**
+
+**Notas:**
+
+- 5.00 Explicacion del proyecto final
+- 5.48 ¿Como funciona? Historias Epicas de la aplicacion
+- 6.40 Modelo de usuarios
+- 7.37 Modelo de "Circulos" grupos de rides
+- 8.20 Modelo de "Rides" o viajes compartidos.
+- 9.00 Funcionalidades de Usuarios5
+- 9.17 Funcionalidades de Circulos
+- 9.40 Funcionalidades de Rides
+- 9.57 Funcionalidades extras
+    - Administracion de admins
+    - Despliege en aws
+- 11.14 Contenido
+
 ---
 
-Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.
+---
 
-## On deer horse aboard tritely yikes and much
+## [2 Arquitectura de una aplicación](https://platzi.com/clases/1461-django-avanzado/17209-arquitectura-de-una-aplicacion/)
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+**Palabras Clave:**
 
-- This however showed weasel
-- Well uncritical so misled
-  - this is very interesting
-- Goodness much until that fluid owl
+El **Backend** consiste en:
 
-When she reached the first hills of the **Italic Mountains**, she had a last
-view back on the skyline of her hometown _Bookmarksgrove_, the headline of
-[Alphabet Village](http://google.com) and the subline of her own road, the Line
-Lane. Pityful a rhetoric question ran over her cheek, then she continued her
-way. On her way she met a copy.
+- Servidor
+- Aplicación
+- Base de Datos
 
-### Overlaid the jeepers uselessly much excluding
+- APIs
+    - SOPA
+    - REST
+    - GraphQL x Facebook
 
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-[Longe and Parole](http://google.com) and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.
+**Resumen:** El objetivo de este curso es convertirte en un Backend profesional que usa Django como su herramienta profesional.
 
-> Far far away, behind the word mountains, far from the countries Vokalia and
-> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-> right at the coast of the Semantics, a large language ocean.
+Un Backend developer es un diseñador, su trabajo consiste un 90% en leer, diseñar, analizar y planear. Un 10% en programar. Nuestro trabajo más importante es el diseño del sistema y las decisiones tomadas son más costosas y más difíciles de cambiar.
 
-It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.
+Web Services es la manera en que se implementan las arquitecturas orientadas a servicios, se crean bloques que son accesibles a través de la web, son independientes del lenguaje de programación.
 
-### According a funnily until pre-set or arrogant well cheerful
+**Documentacion:**
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+Lecturas Recomendadas:
 
-1.  So baboon this
-2.  Mounted militant weasel gregariously admonishingly straightly hey
-3.  Dear foresaw hungry and much some overhung
-4.  Rash opossum less because less some amid besides yikes jeepers frenetic
-    impassive fruitlessly shut
+[Web Tools APIs | USPS](https://www.usps.com/business/web-tools-apis/welcome.htm) Servicio postal de estados unidos
 
-When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rhetoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.
+[Graph API - Documentation - Facebook for Developers](https://developers.facebook.com/docs/graph-api/) - Hablan de las buenas practicas para crear una graphql api
 
-> The copy warned the Little Blind Text, that where it came from it would have
-> been rewritten a thousand times and everything that was left from its origin
-> would be the word "and" and the Little Blind Text should turn around and
-> return to its own, safe country.
+[GitHub GraphQL API v4 | GitHub Developer Guide](https://developer.github.com/v4/) - 
 
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.
+[GitHub - kamranahmedse/developer-roadmap: Roadmap to becoming a web developer in 2019](https://github.com/kamranahmedse/developer-roadmap)
 
-#### Silent delightfully including because before one up barring chameleon
+[2.- Arquitectura de una aplicación - Google Slides](https://docs.google.com/presentation/d/1HlT7niPOISnHjk6ldbmCvZdiOeKqlzLNxfsGY5499_E/edit?usp=sharing)
 
-Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.
+**Notas:**
 
-Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
+- 1.32 Roadmap → Carrera de un FullStack Developer
+- 5.00 Arquitectura
+    - Monolitica: Fuertemente acoplada a la base de datos y cualquier otro servicio que use, Todo esta **en un solo servidor.**
+    - Distribuida: Los servicios estan distribuidos en la red, como la base de datos en otro lugar
+    - Hibrida: el backend esta haciendo rendering en el frontend, el cliente se comunica directamente con el Bakend.
+    - Orientada a Servicios:
+        - Autocontenida
+        - Caja negra
+        - Representa una actividad de negocio especifica
+- Estandares de Arquitectura SOA
+    - SOAP → En desuso antiguo
+    - RESTfulHTTP → Esta enfocada en el HTTP, Es en la que profundizaremos
+    - GraphQL → Esta orientada por facebook, se enfoca en trabajar como un lenguaje de consulta para las APIs
+    - Mas Informacion
+        - SOAP ([https://www.usps.com/business/web-tools-apis/welcome.htm](https://www.usps.com/business/web-tools-apis/welcome.htm))
+        - RESTful HTTP ([https://developers.facebook.com/docs/graph-api/](https://developers.facebook.com/docs/graph-api/))
+        - GraphQL ([https://developer.github.com/v4/](https://developer.github.com/v4/))
 
-##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along
+---
 
-She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rhetoric question ran over her cheek, then she continued her way. On her way she
-met a copy.
+---
 
-###### Slapped cozy a that lightheartedly and far
+## [3 The Twelve-Factor App](https://platzi.com/clases/1461-django-avanzado/17140-the-tlwelve-factor-app/)
 
-The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word "and" and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.
+**Palabras Clave:**
+
+- SAAS
+- Principios basicos
+- 
+
+- API
+- HTTP
+- Metodologia
+
+**Resumen:** Algunos principios de Twelve Factor app
+En el proyecto vamos a construir una API en la teoria estas aplicaciones construidas con apis son nombradas SAAS (Software as a Services) y **The Twelve-Factor App** Es una metodologia de desarrolla para aplicaciones SAAS. Esta metodologia ha sido formada por la contribuciones de muchas personas, mayoritariamente desarrolladores de Heroku.
+
+**Documentacion:**
+
+- [The Twelve-Factor App](https://12factor.net/) - Pagina oficial de la metodologia de desarrollo de SAAS
+
+    Este documento sintetiza toda nuestra experiencia y observaciones sobre una amplia variedad de aplicaciones de software como servicio en la naturaleza. Es una triangulación de prácticas ideales para el desarrollo de aplicaciones, prestando especial atención a la dinámica del crecimiento orgánico de una aplicación a lo largo del tiempo, la dinámica de colaboración entre los desarrolladores que trabajan en el código base de la aplicación y evitando el costo de la erosión del software .
+
+**Notas:**
+
+- 0.30 Principios
+    - Formas **declarativas** de configuracion: Minimizamos el tiempo que le toma a un desarrollador correr nuestro proyecto
+    - Un **contrato claro** con el OS: Ofrecer maxima portabilidad.
+    - Listas para **lanzar. El developer tiene que poder lanzar la aplicacion**
+    - Minimizar la **diferencia** entre **entornos:** Generar un pipeland de continues deliver, consecuente a esto aumentamos la agilidad.
+    - Facil de **escalar:** Evitaremos cambiar la arquitectura.
+- 1.54 Los 12 Factores:
+
+    ![Cimientos%204865b7486a354b89b1379cedbb49ff74/Captura_de_Pantalla_2021-05-14_a_la(s)_12.30.42_p._m..png](Cimientos%204865b7486a354b89b1379cedbb49ff74/Captura_de_Pantalla_2021-05-14_a_la(s)_12.30.42_p._m..png)
+
+    [I. Código base (Codebase)](https://12factor.net/es/codebase)
+
+    Un código base sobre el que hacer el control de versiones y multiples despliegues. 
+
+    Solo hay un git con el codigo base.
+
+    [II. Dependencias](https://12factor.net/es/dependencies)
+
+    Declarar y aislar explícitamente las dependencias
+
+    como el `package.json` de node.js.
+
+    y **aislamos** usando un virtual env o docker
+
+    [III. Configuraciones](https://12factor.net/es/config)
+
+    Guardar la configuración en el entorno.
+
+    Cada entorno debe llevar su configuracion, llaves usuarios etc
+
+    [IV. Backing services](https://12factor.net/es/backing-services)
+
+    Tratar a los “backing services” como recursos conectables.
+
+    EJEMPLO :Servicios de emails → Debe ser muy facil de cambiar de servicio.
+
+    [V. Construir, desplegar, ejecutar](https://12factor.net/es/build-release-run)
+
+    Separar completamente la etapa de construcción de la etapa de ejecución.
+
+    Build → es la parte donde compilamos nuestro codigo
+
+    Relase→ Es la parte donde incluimos las variables de entorno dentro de nuestro paquete.
+
+    Run → Donde corremos la aplicacion en el entorno que se va a ejecutar. 
+
+    Es muy importante mantener esta etapas totalmente separadas, no escribir codigo de una etapa en otra.
+
+    [VI. Procesos](https://12factor.net/es/processes)
+
+    Ejecutar la aplicación como uno o más procesos sin estado.
+
+    No requerimos el almacenamiento de estados en memoria, de ser asi debemos almacenarlo en el backend
+
+    Procesos **Stateless**
+
+    [VII. Asignación de puertos](https://12factor.net/es/port-binding)
+
+    Publicar servicios mediante asignación de puertos.
+
+    Se le debe asignar un puerto por el que la aplicacion escuchara las peticiones
+
+    [VIII. Concurrencia](https://12factor.net/es/concurrency)
+
+    Escalar mediante el modelo de procesos.
+
+    Podemos escalar un solo proceso en varias cargas usando hilos para distribuir mejor la carga.
+
+    ![Cimientos%204865b7486a354b89b1379cedbb49ff74/process-types.png](Cimientos%204865b7486a354b89b1379cedbb49ff74/process-types.png)
+
+    [IX. Desechabilidad](https://12factor.net/es/disposability)
+
+    Hacer el sistema más robusto intentando conseguir inicios rápidos y finalizaciones seguras.
+
+    Los procesos pueden iniciarse o finalizarse en el momento que sea necesario. Esto permite un escalado rápido y flexible.
+
+    [X. Paridad en desarrollo y producción](https://12factor.net/es/dev-prod-parity)
+
+    Mantener desarrollo, preproducción y producción tan parecidos como sea posible.
+
+    Reduccion de tiempos en deploys.
+
+    [XI. Historiales](https://12factor.net/es/logs)
+
+    Tratar los historiales como una transmisión de eventos.
+
+    Nos permiten testear el comportamiento de la aplicacion durante su ejecucion.
